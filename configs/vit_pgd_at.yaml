@@ -1,0 +1,17 @@
+mode: pgd_at
+model: vit
+
+image_size: 224
+batch_size: 32
+epochs: 5
+
+lr: 0.0003
+weight_decay: 0.05
+optimizer: adamw
+pretrained: true
+
+eps: 0.03137255
+alpha: 0.00784314
+pgd_steps: 10
+
+ckpt_path: outputs/checkpoints/vit_pgd_at.pt

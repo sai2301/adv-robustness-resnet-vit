@@ -1,0 +1,18 @@
+mode: trades
+model: vit
+
+image_size: 224
+batch_size: 32
+epochs: 5
+
+lr: 0.0003
+weight_decay: 0.05
+optimizer: adamw
+pretrained: true
+
+eps: 0.03137255
+alpha: 0.00784314
+trades_steps: 10
+beta: 6.0
+
+ckpt_path: outputs/checkpoints/vit_trades.pt

@@ -1,0 +1,17 @@
+mode: pgd_at
+model: resnet18
+
+image_size: 32
+batch_size: 128
+epochs: 10
+
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+optimizer: sgd
+
+eps: 0.03137255
+alpha: 0.00784314
+pgd_steps: 10
+
+ckpt_path: outputs/checkpoints/resnet18_pgd_at.pt

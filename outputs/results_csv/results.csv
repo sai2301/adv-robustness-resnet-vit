@@ -1,0 +1,2 @@
+config,model,mode,clean_acc,fgsm_acc,pgd_acc
+vit_trades.yaml,vit,trades,0.5207,0.2726,0.2632

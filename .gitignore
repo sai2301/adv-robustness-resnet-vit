@@ -1,0 +1,6 @@
+# Dataset files (too large for GitHub)
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+
+# Checkpoints
+outputs/checkpoints/
